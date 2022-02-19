@@ -1,2 +1,2 @@
 # Processamento Digital de Imagens
-~~ repo para salvar algun arquivos feitos na aula.
+~~ repo para salvar alguns arquivos feitos na aula.
