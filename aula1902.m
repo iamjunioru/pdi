@@ -12,7 +12,7 @@ g = imadjust(i, [0 1], [0.4 0.7]);
 # figure
 # imshow(g);
 
-h = imadjust(g, [0.4 0.7], [0 1]); # use apenas imadjust(variavel); p autocorreção
+h = imadjust(g, [0.4 0.7], [0 1]); # use apenas imadjust(variavel); p autocorreÃ§Ã£o
 #figure
 # imshow(h);
 
@@ -20,7 +20,7 @@ f = imadjust(i, [1 0], [0 1]); # imagem em negativo
 # figure
 # imshow(f);
 
-# figure
+## figure
 # subplot(1, 2, 1), imhist(i);
 # subplot(1, 2, 2), imhist(g);
 
