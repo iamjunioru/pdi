@@ -27,6 +27,9 @@ g4 = imdilate(g1, b);
 
 g5 = imerode(g1, b);
 
+bw2 = imerode(g1, b);
+bw3 = g1 - bw2;
+
 
 # figure, imshow(f); 
 subplot (3,3,1), imshow (f);
@@ -37,3 +40,4 @@ subplot (3,3,5), imshow (g2);
 subplot (3,3,6), imshow (g3);
 subplot (3,3,7), imshow (g4);
 subplot (3,3,8), imshow (g5);
+subplot (3,3,9), imshow (bw3);
