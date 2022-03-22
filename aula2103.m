@@ -1,7 +1,7 @@
 clear all;
 close all;
 
-# load image pkg
+pkg load image
 
 function [g1, g2] = minhatransf(f, t)
 
